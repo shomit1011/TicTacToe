@@ -83,6 +83,13 @@ function checkk(){
         dis();
         document.getElementById("kk").innerHTML="Reset Game";
     }
+    if(st==9)
+    {
+        ress();
+        dis();
+        document.getElementById("f-msg").innerHTML="no one won retry";
+        document.getElementById("kk").innerHTML="Reset Game";
+    }
 }
 function dis()
 {
