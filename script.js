@@ -105,7 +105,7 @@ function dis()
 
 }
 function ress()
-{
+{st=0;
     document.getElementById("1_1").disabled = false;
     document.getElementById("1_2").disabled = false;
     document.getElementById("1_3").disabled = false;
