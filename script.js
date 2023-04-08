@@ -82,7 +82,7 @@ function checkk(){
         dis();
         document.getElementById("kk").innerHTML="Reset Game";
     }
-    if(st==9)
+    else if(st==9)
     {
         ress();
         dis();
