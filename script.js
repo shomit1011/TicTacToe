@@ -14,7 +14,6 @@ function play(x){
     }
     else{
         document.getElementById(x).innerHTML = "X";
-        
         document.getElementById(x).value=-2;
         st++;
     }
@@ -87,7 +86,7 @@ function checkk(){
     {
         ress();
         dis();
-        document.getElementById("f-msg").innerHTML="no one won retry";
+        document.getElementById("f-msg").innerHTML="No One Won Retry!";
         document.getElementById("kk").innerHTML="Reset Game";
     }
 }
